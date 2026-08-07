@@ -1,0 +1,4 @@
+interface:
+  display_name: "bug-fixer"
+  short_description: "Reproduce and fix bugs with regression evidence"
+  default_prompt: "Use $bug-fixer to reproduce, isolate, and minimally fix this bug."

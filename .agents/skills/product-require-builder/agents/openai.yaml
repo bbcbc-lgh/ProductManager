@@ -1,0 +1,4 @@
+interface:
+  display_name: "product-require-builder"
+  short_description: "Turn vague ideas into development-ready requirements"
+  default_prompt: "Use $product-require-builder to interview me and produce a ready REQUIRE.md."

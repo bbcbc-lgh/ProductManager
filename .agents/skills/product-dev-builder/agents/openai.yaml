@@ -1,0 +1,4 @@
+interface:
+  display_name: "product-dev-builder"
+  short_description: "Build and close one reviewed phase at a time"
+  default_prompt: "Use $product-dev-builder to implement the current PLAN.md phase through a passing independent review."

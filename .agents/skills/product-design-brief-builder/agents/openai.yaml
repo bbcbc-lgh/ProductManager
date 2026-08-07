@@ -1,0 +1,4 @@
+interface:
+  display_name: "product-design-brief-builder"
+  short_description: "Translate design intent into concrete decisions"
+  default_prompt: "Use $product-design-brief-builder to turn REQUIRE.md and my preferences into BRIEF.md."

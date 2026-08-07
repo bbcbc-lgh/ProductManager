@@ -1,0 +1,7 @@
+goal_id: string
+objective: string
+inputs: list of repository-relative paths
+completion_criteria: list of testable statements
+acceptance_evidence: list of required outputs or paths
+gate_command: string
+state: active | complete | blocked

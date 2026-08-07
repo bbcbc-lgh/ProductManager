@@ -1,0 +1,11 @@
+format: JSON object
+signal_id: string
+recorded_at: ISO-8601 timestamp
+source: user_feedback | correction | rejection | praise
+raw_feedback: string
+context: string
+observed_behavior: string
+desired_behavior: string
+candidate_rule_area: string
+repeat_count: integer >= 1
+state: new | proposed | accepted | rejected | obsolete

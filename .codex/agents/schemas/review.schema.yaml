@@ -1,0 +1,8 @@
+phase_id: string
+reviewer: clean-context subagent identifier
+scope: list of repository-relative paths
+verdict: PASS | FAIL
+blocking_findings: list of strings
+non_blocking_findings: list of strings
+evidence: list of repository-relative paths or command outputs
+reviewed_at: ISO-8601 timestamp

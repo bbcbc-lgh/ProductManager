@@ -1,0 +1,20 @@
+{
+  "description": "Project workflow startup context.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume|clear",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "root=$(git rev-parse --show-toplevel 2>/dev/null || pwd); python \"$root/.codex/hooks/session_start.py\"",
+            "commandWindows": "powershell -NoProfile -Command \"$root = git rev-parse --show-toplevel 2>$null; if (-not $root) { $root = (Get-Location).Path }; python (Join-Path $root '.codex\\hooks\\session_start.py')\"",
+            "timeout": 10,
+            "statusMessage": "Checking workflow feedback signals",
+            "additionalContextLimit": 1000
+          }
+        ]
+      }
+    ]
+  }
+}

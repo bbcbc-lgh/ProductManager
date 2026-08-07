@@ -1,0 +1,4 @@
+interface:
+  display_name: "goal-creator"
+  short_description: "Write precise goals with verifiable acceptance"
+  default_prompt: "Use $goal-creator to turn the current phase into an executable Goal with evidence."

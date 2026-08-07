@@ -1,0 +1,7 @@
+document_type: REQUIRE | BRIEF | PLAN | DESIGN
+status: draft | ready | superseded
+version: integer >= 1
+updated_at: ISO-8601 timestamp
+source_documents: list of repository-relative paths
+open_questions: list of strings
+acceptance_criteria: list of strings

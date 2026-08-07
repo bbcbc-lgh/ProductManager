@@ -1,0 +1,4 @@
+interface:
+  display_name: "code-reviewer"
+  short_description: "Independently review a bounded implementation"
+  default_prompt: "Use $code-reviewer to review this phase packet and emit a structured PASS or FAIL verdict."

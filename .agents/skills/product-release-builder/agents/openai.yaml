@@ -1,0 +1,4 @@
+interface:
+  display_name: "product-release-builder"
+  short_description: "Audit privacy and package a chosen release target"
+  default_prompt: "Use $product-release-builder to show viable release targets, let me choose, then audit and package it."

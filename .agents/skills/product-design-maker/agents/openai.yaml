@@ -1,0 +1,4 @@
+interface:
+  display_name: "product-design-maker"
+  short_description: "Create visual design and high-fidelity prototypes"
+  default_prompt: "Use $product-design-maker with REQUIRE.md and BRIEF.md to create the DESIGN artifacts."

@@ -1,0 +1,8 @@
+{
+  "phase_id": "string",
+  "kind": "build | test | acceptance",
+  "command": ["executable", "argument"],
+  "exit_code": 0,
+  "recorded_at": "ISO-8601 timestamp",
+  "output": "string"
+}

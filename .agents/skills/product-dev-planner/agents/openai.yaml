@@ -1,0 +1,4 @@
+interface:
+  display_name: "product-dev-planner"
+  short_description: "Plan independently runnable development phases"
+  default_prompt: "Use $product-dev-planner to produce a phase-based PLAN.md from the ready project documents."

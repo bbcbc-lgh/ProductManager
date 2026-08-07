@@ -1,0 +1,4 @@
+interface:
+  display_name: "self-evolution"
+  short_description: "Propose rule changes from accumulated feedback"
+  default_prompt: "Use $self-evolution to analyze unprocessed signals and propose rule changes for my approval."
