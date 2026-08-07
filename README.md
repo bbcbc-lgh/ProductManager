@@ -1,5 +1,7 @@
 # Codex 产品协作系统使用说明
 
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+
 这是一套面向 Codex Desktop 的产品开发工作流模板。它用一个主 agent 从产品想法推进到发布，通过阶段文档保留上下文，通过独立审查和脚本门禁防止假完成。
 
 ## 1. 工作流总览
@@ -327,3 +329,7 @@ python .codex\agents\scripts\workflow_gate.py --phase P01
 以及当前 Goal、证据和审查记录。告诉我目前处于哪个 Phase、
 有哪些阻塞项、下一项可执行动作是什么，然后继续工作。
 ```
+
+## 许可证
+
+本项目基于 [MIT License](LICENSE) 开源。
